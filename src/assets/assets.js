@@ -32,6 +32,11 @@ import guru from "./img/song-thumb/guru.png";
 import kodi from "./img/song-thumb/kodi.png";
 import manithan from "./img/song-thumb/manithan.png";
 import oh_manapenne from "./img/song-thumb/oh-manapennae.png";
+import yathe from "./img/song-thumb/yathe.jpg";
+import porkalam from "./img/song-thumb/porkalam.jpg";
+import nelothi from "./img/song-thumb/neelothi.jpg";
+import ayayo from "./img/song-thumb/ayyayo.jpg";
+import auro10 from "./img/song-thumb/auro10.jpg";
 
 import tensromance from "./img/10s-romance-tamil.jpg";
 import arrmix from "./img/arr-mix.jpg";
@@ -50,6 +55,11 @@ import anbeenanbe from "./songs/Anbe-En-Anbe.mp3";
 import poivalva from "./songs/Poi-Vazhva.mp3";
 import sirukkivaasasm from "./songs/Sirukki-Vaasam.mp3";
 import bodhaikaname from "./songs/Bodhai-Kaname.mp3";
+import yatheyathe from "./songs/Yathe-Yathe.mp3";
+import porkkalam from "./songs/Porkkalam-Tamil-Rap.mp3";
+import neelothi from "./songs/Neelothi.mp3";
+import ayyayo from "./songs/Ayyayo-Nenju.mp3";
+import aura10 from "./songs/Aura 10-10.mp3";
 
 export const assets = {
   bell_icon,
@@ -202,4 +212,45 @@ export const songsData = [
     desc: "Put a smile on your face with these happy tunes",
     duration: "4:22",
   },
+  {
+    id: 8,
+    name: "Yathe Yathe",
+    image: yathe,
+    file: yatheyathe,
+    desc: "Put a smile on your face with these happy tunes",
+    duration: "5:45",
+  },
+  {
+    id: 9,
+    name: "Neelothi",
+    image: nelothi,
+    file: neelothi,
+    desc: "Put a smile on your face with these happy tunes",
+    duration: "4:34",
+  },
+  {
+    id: 10,
+    name: "Porkkalam",
+    image: porkalam,
+    file: porkkalam,
+    desc: "Put a smile on your face with these happy tunes",
+    duration: "4:20",
+  },
+  {
+    id: 11,
+    name: "Aura 10/10",
+    image: auro10,
+    file: aura10,
+    desc: "Put a smile on your face with these happy tunes",
+    duration: "2:09",
+  },
+  {
+    id: 12,
+    name: "Ayyayo Nenju",
+    image: ayayo,
+    file: ayyayo,
+    desc: "Put a smile on your face with these happy tunes",
+    duration: "5:24",
+  },
+  
 ];
