@@ -52,7 +52,8 @@ const PlayerContextProvider = (props)=>{
 
     const playWithId = async (id)=>{
 
-        await setTrack(songsData[id])
+        await setTrack(songsData[id]);
+        audioRef.current.loop = true;
         await audioRef.current.play();
         setPlayStatus(true);
 
