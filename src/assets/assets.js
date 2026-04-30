@@ -37,6 +37,8 @@ import porkalam from "./img/song-thumb/porkalam.jpg";
 import nelothi from "./img/song-thumb/neelothi.jpg";
 import ayayo from "./img/song-thumb/ayyayo.jpg";
 import auro10 from "./img/song-thumb/auro10.jpg";
+import pavazha from "./img/song-thumb/pavazha.jpg";
+import pavazhamalli from "./img/song-thumb/pavazhamalli.jpg";
 
 import tensromance from "./img/10s-romance-tamil.jpg";
 import arrmix from "./img/arr-mix.jpg";
@@ -60,6 +62,8 @@ import porkkalam from "./songs/Porkkalam-Tamil-Rap.mp3";
 import neelothi from "./songs/Neelothi.mp3";
 import ayyayo from "./songs/Ayyayo-Nenju.mp3";
 import aura10 from "./songs/Aura 10-10.mp3";
+import pavazhaa from "./songs/pavazhaa.mp3";
+import pavazhaamalli from "./songs/pavazhaamalli.mp3";
 
 export const assets = {
   bell_icon,
@@ -182,6 +186,14 @@ export const songsData = [
   },
   {
     id: 4,
+    name: "pavazhamalli Unpluged",
+    image: pavazhamalli,
+    file: pavazhaamalli,
+    desc: "Dont ever feel down listen this",
+    duration: "1:20",
+  },
+  {
+    id: 5,
     name: "Anbe en Anbe",
     image: dhaamdhoom,
     file: anbeenanbe,
@@ -189,7 +201,7 @@ export const songsData = [
     duration: "5:40",
   },
   {
-    id: 5,
+    id: 6,
     name: "Poi Vazhva",
     image: manithan,
     file: poivalva,
@@ -197,15 +209,23 @@ export const songsData = [
     duration: "3:59",
   },
   {
-    id: 6,
+    id: 7,
     name: "Sirukki Vaasam",
     image: kodi,
     file: sirukkivaasasm,
     desc: "Put a smile on your face with these happy tunes",
     duration: "4:35",
   },
+   {
+    id: 8,
+    name: "pavazhamalli Original",
+    image: pavazha,
+    file: pavazhaa,
+    desc: "Dont ever feel down listen this",
+    duration: "4:12",
+  },
   {
-    id: 7,
+    id: 9,
     name: "Bodhai Kaname",
     image: oh_manapenne,
     file: bodhaikaname,
@@ -213,7 +233,7 @@ export const songsData = [
     duration: "4:22",
   },
   {
-    id: 8,
+    id: 10,
     name: "Yathe Yathe",
     image: yathe,
     file: yatheyathe,
@@ -221,7 +241,7 @@ export const songsData = [
     duration: "5:45",
   },
   {
-    id: 9,
+    id: 11,
     name: "Neelothi",
     image: nelothi,
     file: neelothi,
@@ -229,7 +249,7 @@ export const songsData = [
     duration: "4:34",
   },
   {
-    id: 10,
+    id: 12,
     name: "Porkkalam",
     image: porkalam,
     file: porkkalam,
@@ -237,7 +257,7 @@ export const songsData = [
     duration: "4:20",
   },
   {
-    id: 11,
+    id: 13,
     name: "Aura 10/10",
     image: auro10,
     file: aura10,
@@ -245,12 +265,13 @@ export const songsData = [
     duration: "2:09",
   },
   {
-    id: 12,
+    id: 14,
     name: "Ayyayo Nenju",
     image: ayayo,
     file: ayyayo,
     desc: "Put a smile on your face with these happy tunes",
     duration: "5:24",
   },
+ 
   
 ];
