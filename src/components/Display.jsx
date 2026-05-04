@@ -3,6 +3,7 @@ import { Route, Routes, useLocation } from 'react-router-dom'
 import DisplayHome from './DisplayHome'
 import DisplayAlbum from './DisplayAlbum'
 import { albumsData } from '../assets/assets';
+import Search from '../pages/Search'
 
 function Display() {
   const displayref = useRef();
@@ -33,6 +34,7 @@ useEffect(()=>{
       <Routes>
         <Route path='/' element={<DisplayHome/>}></Route>
         <Route path='/album/:id' element={<DisplayAlbum/>}></Route>
+        <Route path='/search' element={<Search/>}></Route>
       </Routes>
 
         
