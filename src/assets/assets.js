@@ -39,6 +39,7 @@ import ayayo from "./img/song-thumb/ayyayo.jpg";
 import auro10 from "./img/song-thumb/auro10.jpg";
 import pavazha from "./img/song-thumb/pavazha.jpg";
 import pavazhamalli from "./img/song-thumb/pavazhamalli.jpg";
+import kalyani from "./img/song-thumb/kalyani.png";
 
 import tensromance from "./img/10s-romance-tamil.jpg";
 import arrmix from "./img/arr-mix.jpg";
@@ -64,6 +65,8 @@ import ayyayo from "./songs/Ayyayo-Nenju.mp3";
 import aura10 from "./songs/Aura 10-10.mp3";
 import pavazhaa from "./songs/pavazhaa.mp3";
 import pavazhaamalli from "./songs/pavazhaamalli.mp3";
+import kalyanii from "./songs/kalyanii 8d.mp3";
+
 
 export const assets = {
   bell_icon,
@@ -271,6 +274,14 @@ export const songsData = [
     file: ayyayo,
     desc: "Put a smile on your face with these happy tunes",
     duration: "5:24",
+  },
+  {
+    id: 15,
+    name: "KALYANI 8D",
+    image: kalyani,
+    file: kalyanii,
+    desc: "Put a smile on your face with these happy tunes",
+    duration: "4:25",
   },
  
   
